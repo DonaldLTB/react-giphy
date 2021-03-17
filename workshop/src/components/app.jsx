@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Gif from "./gif";
-import GifList from "./gifList";
+import Gif from "./Gif";
+import GifList from "./GifList";
 import SearchBar from "./SearchBar";
 
 // eslint-disable-next-line react/prefer-stateless-function
@@ -10,7 +10,7 @@ export default class App extends Component {
     return (
       <div>
         <div className="left-scene">
-        <SearchBar />
+          <SearchBar />
         </div>
         <Gif />
         <div className="right-scene">

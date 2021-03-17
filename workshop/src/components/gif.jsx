@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 
 // eslint-disable-next-line react/prefer-stateless-function
-export default class gif extends Component {
+export default class Gif extends Component {
   render() {
-    const { gifId } = this.props;
-    const url = `https://media.giphy.com/media/${gifID}/giphy.gif`
     return (
-      <img src={url} alt="" className="gif" />
+      <img src="https://media.giphy.com/media/gG6OcTSRWaSis/giphy.gif" alt="" className="gif" />
     );
   }
 }

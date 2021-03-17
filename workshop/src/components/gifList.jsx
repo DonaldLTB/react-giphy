@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
-export default class gifList extends Component {
+// eslint-disable-next-line react/prefer-stateless-function
+export default class GifList extends Component {
   render() {
     return (
-      <div></div>
+      <img src="https://media.giphy.com/media/gG6OcTSRWaSis/giphy.gif" alt="" className="gif" />
     );
   }
 }
